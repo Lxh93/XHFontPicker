@@ -10,15 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var fontNameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func selectFont() {
+        
+        let xhSelectFont = XHFontPickerViewController()
+        xhSelectFont.delegate = self
+        self.present(xhSelectFont, animated: true, completion: nil)
     }
-
+    
 }
 
+extension ViewController: XHFontPickerDelegate {
+    func getFontName(fontName: String) {
+        fontNameLabel.text = fontName
+        fontNameLabel.font = UIFont.init(name: fontName, size: 16)
+    }
+}

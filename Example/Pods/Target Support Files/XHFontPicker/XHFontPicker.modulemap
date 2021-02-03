@@ -1,0 +1,6 @@
+framework module XHFontPicker {
+  umbrella header "XHFontPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

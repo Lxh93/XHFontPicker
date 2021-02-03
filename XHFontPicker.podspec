@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHFontPicker'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XHFontPicker.'
+  s.version          = '0.0.1'
+  s.summary          = 'XHFontPicker'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "A Simple FontPicker"
 
-  s.homepage         = 'https://github.com/Lxh93/XHFontPicker'
+  s.homepage         = 'https://github.com/Lxh93'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lxh93' => '894365394@qq.com' }
