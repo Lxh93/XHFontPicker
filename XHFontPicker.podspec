@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'XHFontPicker/Classes/**/*'
-  
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'XHFontPicker' => ['XHFontPicker/Assets/*.png']
   # }
