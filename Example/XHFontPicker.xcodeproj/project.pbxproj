@@ -15,7 +15,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		BDCC5DFD25CABDDB00883B5D /* XHFontPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC5DFC25CABDDB00883B5D /* XHFontPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		6E62BC07BB426D0716434E0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9E0A693F6F4F4D30D5043063 /* Pods-XHFontPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHFontPicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-XHFontPicker_Tests/Pods-XHFontPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A663D1B3802A9EF7F75E90DA /* XHFontPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XHFontPicker.podspec; path = ../XHFontPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BDCC5DFC25CABDDB00883B5D /* XHFontPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHFontPickerViewController.swift; sourceTree = "<group>"; };
 		C227E34BCCB9583B6FA1F0BA /* Pods-XHFontPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHFontPicker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XHFontPicker_Tests/Pods-XHFontPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D612B41210DD7A5291D28971 /* Pods_XHFontPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHFontPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,7 +104,6 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				BDCC5DFC25CABDDB00883B5D /* XHFontPickerViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -355,7 +352,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDCC5DFD25CABDDB00883B5D /* XHFontPickerViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
