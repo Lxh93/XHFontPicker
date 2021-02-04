@@ -8,7 +8,7 @@
 import UIKit
 
 @objc public protocol XHFontPickerDelegate {
-    func getFontName(fontName: String)
+    func getFontName(fontPickerController: XHFontPickerViewController, fontName: String)
 }
 
 public class XHFontPickerViewController: UITableViewController {
@@ -56,7 +56,7 @@ extension XHFontPickerViewController {
     
     // MARK: UITableViewDelegate
     public override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        delegate?.getFontName(fontName: fontArray[indexPath.row])
+        delegate?.getFontName(fontPickerController: self, fontName: fontArray[indexPath.row])
         self.dismiss(animated: true, completion: nil)
     }
 }

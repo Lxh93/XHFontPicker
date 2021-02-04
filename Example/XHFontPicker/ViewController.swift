@@ -27,8 +27,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: XHFontPickerDelegate {
-    func getFontName(fontName: String) {
-//        fontNameLabel.text = fontName
+    func getFontName(fontPickerController: XHFontPickerViewController, fontName: String) {
         fontNameLabel.font = UIFont.init(name: fontName, size: 16)
     }
 }
